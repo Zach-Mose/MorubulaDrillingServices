@@ -1,0 +1,198 @@
+/*Font style*/
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap");
+/* Basic layout style*/
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 1rem;
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+/*Navigation Bar*/
+#nav {
+    -webkit-box-shadow: 0 10px 10px -5px whitesmoke;
+    box-shadow: 0 10px 10px -5px whitesmoke;
+    position: absolute;
+    color: whitesmoke;
+    width: 100%;
+    top: 0px;
+    /*Navigation Links*/
+  }
+  
+  #nav a img {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 3rem;
+    position: relative;
+    left: 2px;
+    top: 5px;
+    z-index: 1;
+  }
+
+    /*Logo
+    .logo, logo-link{
+      height: 40px;
+      width: 40px;
+      position: relative;
+      left: 2px;
+      top: 0px;
+      cursor: pointer;
+    }*/
+
+  #nav #navbarNavDropdown{
+    z-index: 1;
+  }
+  
+  #nav #navbarNavDropdown .nav-link {
+    padding: 1rem;
+  }
+  
+  #nav .navbar-nav .nav-item .nav-link {
+    color: rgba(33, 33, 67, 0.979);
+    font-size: large;
+    font-weight: 500;
+    padding: 2rem;
+  }
+  
+  #nav .navbar-nav .nav-item .nav-link:hover {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: rgba(31, 31, 192, 0.979);
+  }
+  
+/*Container for Display Picture*/
+#index_1 {
+    background-image: url("images/alex-perez-wEgR12N01Tk-cropped.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 670px;
+    width: 100%;
+    position: relative;
+  }
+  
+  #index_1 #index_2 {
+    background: transparent;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    position: absolute;
+    border-radius: 1rem;
+    padding: 20rem;
+    top: 40%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+  }
+  
+  #index_1 #index_2 h1 {
+    color: rgba(33, 33, 67, 0.979);
+    padding: 1rem;
+  }
+
+  #index_1 #index_2 p{
+    font-size: large;
+    font-weight: bold;
+    color: rgba(33, 33, 67, 0.979);
+  }
+
+  #index_1 #index_2 button {
+    top: 70%;
+    left: 50%;
+    width:25%;
+    padding: 1rem;
+    color: rgba(33, 33, 67, 0.979);
+    outline: rgba(33, 33, 67, 0.979);
+    border-color: rgba(33, 33, 67, 0.979);
+    background-color: transparent;
+    border-radius: 1rem;
+    position: absolute;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  } 
+
+  /*About US*/
+  #About{
+      box-shadow: 0 10px 10px -5px rgb(101, 143, 144);
+      max-width: 100%;
+      background: rgb(101, 143, 144);
+      max-height: fit-content;
+      padding-bottom: 1rem;
+  }
+
+  #About h1{
+    padding-top: 2rem;
+    color :rgba(33, 33, 67, 0.979);
+    padding-bottom: 1rem;
+  }
+
+  #About p{
+    padding-right: 3rem;
+    padding-left: 3rem;
+    padding-bottom: 1rem;
+    color :rgba(33, 33, 67, 0.979);
+  }
+
+  /*Service - background: rgb(167, 133, 47); rgb(74, 163, 101); rgb(209, 173, 81); background: rgb(74, 163, 101);*/
+  #Service{
+    background-image: url("images/amritanshu-sikdar-LoGnr-w1D8E-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*box-shadow: 0 10px 10px -5px rgb(0, 196, 134);*/
+    max-width: 100%;
+    height: 770px;
+    width: 100%;
+    position: relative;
+    max-height: fit-content;
+    padding-bottom: 1rem;
+  }
+
+  #Service h1{
+    padding-top: 2rem;
+    color :rgba(33, 33, 67, 0.979);
+    padding-bottom: 1rem;
+  }
+
+  #Service .row{
+    padding-bottom: 50px;
+}
+
+#Service .row .col-md-8{
+    padding: 0px 0px 0px;
+    margin: 0px;
+    background-color: transparent;
+    box-shadow: 0 10px 10px -5px;
+}
+
+#Service .row .col-md-8 .card-body .card-text{
+  padding: 50px;
+}
+
+
+#Service .row .col-md-6 img{
+    height: 400px;
+    max-width: 350px;
+    margin: 0px;
+    border-radius: 0px;
+}
+
+  #Pricing{
+    box-shadow: 0 10px 10px -5px rgb(101, 143, 144);
+    max-width: 100%;
+    background :rgb(101, 143, 144);
+    max-height: fit-content;
+    padding: 1rem;
+  }
+
+  #Pricing h1{
+    padding-top: 2rem;
+    color :rgba(33, 33, 67, 0.979);
+    padding-bottom: 1rem;
+  }
+
+}
+
